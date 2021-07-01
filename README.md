@@ -1,3 +1,3 @@
 # kokoa clone
 
-HTML, CSS study
+HTML & CSS are so much fun!
