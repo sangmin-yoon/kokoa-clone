@@ -1,5 +1,5 @@
-.status-bar {
-  position: fixed;
+.chat-status-bar {
+  /* position: fixed; */
   width: 100%;
   top: 0px;
   display: flex;
@@ -7,21 +7,21 @@
   padding: 5px 3px;
   /* background-color: white; */
 }
-.status-bar__column {
+.chat-status-bar__column {
   width: 33%;
 }
-.status-bar__column:first-child span {
+.chat-status-bar__column:first-child span {
   margin-right: 5px;
 }
-.status-bar__column:nth-child(2) {
+.chat-status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
 }
-.status-bar__column:last-child {
+.chat-status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.status-bar__column .fa-battery-full {
+.chat-status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
